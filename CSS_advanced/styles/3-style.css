@@ -1,3 +1,29 @@
+/* body foreground colour */
+body {
+    color: #161616;
+}
+
+/* All ANCHOR elements' foreground colour*/
+a {
+    color: #161616;
+}
+
+/* All elements with the class 'visually-hidden' should have their display to none*/
+.visually-hidden {
+    display: none;
+}
+
+/* All elements with the class card-category, should have their foreground color set to #D73953 */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* All elements with the class section-tagline should have their foreground color set to #D73953 */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+
 /* Target the root element and define the following custom properties:
 
 color-primary set to #d73953
