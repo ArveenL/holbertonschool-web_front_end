@@ -15,10 +15,10 @@ a {
 
 /* All elements with the class card-category, should have their foreground color set to #D73953 */
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 
 /* All elements with the class section-tagline should have their foreground color set to #D73953 */
 .section-tagline {
-    color: #D73953;
+    color: var(--color-primary);
 }

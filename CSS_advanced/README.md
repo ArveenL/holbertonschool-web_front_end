@@ -37,3 +37,17 @@ a {
 .section-tagline {
   color: #D73953;
 }
+
+
+---
+
+Not only—:root can style the <html> element like any other selector, but it’s most commonly used for storing global CSS variables because it’s guaranteed to be at the top of the document.
+
+Example styling without variables:
+
+:root {
+  font-size: 16px;
+  background-color: #f3f3f3;
+}
+
+So variables are just the most popular use, not the only use.
