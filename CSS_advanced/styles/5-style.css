@@ -88,9 +88,11 @@ Example:
 It’s basically a shortcut for easier math with rem units.
 */
 
+html {
+/* we're using font-size 1.6 rem instead */
+}
 
 /* Any fonts in the body should have their sizes set to font-size-medium */
-
 body {
     font-size: var(--font-size-medium);
 }
