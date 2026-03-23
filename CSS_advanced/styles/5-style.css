@@ -88,9 +88,6 @@ Example:
 It’s basically a shortcut for easier math with rem units.
 */
 
-html {
-    font-size: 62.5%;
-}
 
 /* Any fonts in the body should have their sizes set to font-size-medium */
 
