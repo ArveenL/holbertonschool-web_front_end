@@ -95,8 +95,7 @@ It’s basically a shortcut for easier math with rem units.
 */
 
 html {
-/* we're using font-size 1.6 rem instead */
-font-size: 62.5%;
+font-size: 62.5%;      
 }
 
 /* Any fonts in the body should have their sizes set to font-size-medium */
