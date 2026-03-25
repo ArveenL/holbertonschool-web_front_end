@@ -54,11 +54,20 @@ Set the boldness of fonts in the headings to font-weight-bold
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
+
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    font-size: 62.5%;
 }
 
 /* Based on styles/3-style.css:
@@ -69,13 +78,9 @@ set the second choice font as Helvetica
 set the third choice font as Arial
 set the last choice font as sans-serif */
 
-:root {
-    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 /* All fonts in the html element should be at 62.5% of their normal size 
@@ -94,11 +99,8 @@ Example:
 It’s basically a shortcut for easier math with rem units.
 */
 
-html {
-font-size: 62.5%;      
-}
-
 /* Any fonts in the body should have their sizes set to font-size-medium */
 body {
     font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
 }
