@@ -39,6 +39,12 @@ font-size-medium set to 1.6rem
 font-size-large set to 1.8rem
 font-size-x-large set to 2.3rem
 font-size-xx-large set to 4.8rem
+
+Targeting the root element, create the following custom properties:
+font-weight-regular set to 400
+font-weight-bold set to 700
+Set the boldness of fonts in the body to font-weight-regular
+Set the boldness of fonts in the headings to font-weight-bold
 */
 
 :root {
@@ -90,6 +96,7 @@ It’s basically a shortcut for easier math with rem units.
 
 html {
 /* we're using font-size 1.6 rem instead */
+font-size: 62.5%;
 }
 
 /* Any fonts in the body should have their sizes set to font-size-medium */
