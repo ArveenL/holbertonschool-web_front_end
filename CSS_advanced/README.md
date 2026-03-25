@@ -41,7 +41,7 @@ a {
 
 ---
 
-Not only—:root can style the <html> element like any other selector, but it’s most commonly used for storing global CSS variables because it’s guaranteed to be at the top of the document.
+/*Not only—:root can style the <html> element like any other selector, but it’s most commonly used for storing global CSS variables because it’s guaranteed to be at the top of the document.
 
 Example styling without variables:
 
