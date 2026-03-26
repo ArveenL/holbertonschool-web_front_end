@@ -32,20 +32,7 @@ color-black set to #090909
 color-white set to #ffffff
 color-light-grey set to #f3f3f3
 color-dark-grey set to #353535
-text-color set to color-black 
-
-font-size-small set to 1.2rem
-font-size-medium set to 1.6rem
-font-size-large set to 1.8rem
-font-size-x-large set to 2.3rem
-font-size-xx-large set to 4.8rem
-
-Targeting the root element, create the following custom properties:
-font-weight-regular set to 400
-font-weight-bold set to 700
-Set the boldness of fonts in the body to font-weight-regular
-Set the boldness of fonts in the headings to font-weight-bold
-*/
+text-color set to color-black */
 
 :root {
     --color-primary: #d73953;
@@ -54,19 +41,8 @@ Set the boldness of fonts in the headings to font-weight-bold
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
-
-    --font-size-small: 1.2rem;
-    --font-size-medium: 1.6rem;
-    --font-size-large: 1.8rem;
-    --font-size-x-large: 2.3rem;
-    --font-size-xx-large: 4.8rem;
-
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-    --font-weight-regular: 400;
-    --font-weight-bold: 700;
-    font-size: 62.5%;
 }
 
 /* Based on styles/3-style.css:
@@ -77,33 +53,10 @@ set the second choice font as Helvetica
 set the third choice font as Arial
 set the last choice font as sans-serif */
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-/* All fonts in the html element should be at 62.5% of their normal size 
-i.e It means you’re shrinking the default font size of the whole page to 62.5% of the browser’s normal size.
-
-Most browsers default to 16px.
-62.5% of 16px → 10px.
-Now, 1rem = 10px, so calculating sizes is easier:
-
-Example:
-
-1.2rem = 12px
-1.6rem = 16px
-2.3rem = 23px
-
-It’s basically a shortcut for easier math with rem units.
-*/
-
 html {
     
 }
 
-/* Any fonts in the body should have their sizes set to font-size-medium */
-body {
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
 }
